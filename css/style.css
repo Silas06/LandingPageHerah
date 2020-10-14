@@ -1,0 +1,321 @@
+body {
+    font-family: 'oswald', sans-serif;
+    margin-top: ;
+}
+
+.row {
+    margin:0;
+}
+
+
+
+
+/*cor de fundo inicial*/
+.bg-1 {
+    background-color: #9dc7c8;
+}
+
+/* cor de fundo secundaria*/
+.bg-2 {
+    background-color: #8DBEBF;
+}
+
+/*configuraçoes header*/
+nav {
+    border-bottom: 1px solid rgb(224, 240, 241);
+}
+
+.logo {
+	width:220px;
+	}
+
+.btn-sistema {
+	border-radius: 1.25rem;
+}
+
+/*background principal*/
+
+#bk1 {
+    background-image: url(../image/1.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin-top:70px;
+}
+
+/* configuraçoes formulario e titulo  */
+
+#img-1{
+	margin-top:-75px;
+}
+
+#form-area{
+	margin-top:-300px;
+}
+#formulario {
+    margin-top: 180px;
+}
+
+#section-main p {
+    
+    max-width: 700px;
+	font-size:1.55em;
+}
+
+#section-main h1 {
+	margin-top: 55px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.btn-send {
+    background-color: #00435d;
+}
+
+.btn-select {
+    background-color: #6b8c8c;
+}
+
+.bg-form {
+    opacity:.8;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    padding: 10px 0 5px;
+    color: black;
+    margin-bottom: 30px;
+    padding:20px;
+}
+}
+
+/*  confg. banners*/
+
+.titulo-banners {
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.titulo-banners span {
+    font-weight: 400;
+}
+
+/*confg. area services */
+#services-1 .service-bar div {
+    padding-top: 270px;
+}
+
+#services-2 .service-bar div {
+    padding-top: 180px;
+}
+
+#services-2,
+#services-4 {
+    padding-top: 90px;
+}
+
+#services-3 .service-bar div {
+    padding-top: 195px;
+}
+
+#services-4 .service-bar div {
+    padding-top: 190px;
+}
+
+.card img {
+    max-width: 140px;
+}
+
+/* barra vertical da area services */
+.service-bar {
+    margin: auto;
+}
+
+.service-bar div {
+
+    border-right: 2px solid #fff;
+}
+
+
+/* conteudo -5*/
+
+#conteudo-5 h2 {
+    margin-bottom: -115px;
+}
+
+/* area do time*/
+
+#section-team p,
+#section-team h5,
+#section-team h4 {
+    color: #00393c;
+}
+
+.card-title {
+    font-size: 1.6rem;
+}
+
+.img-team {
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.35);
+}
+
+.barra {
+    width: 35%;
+    border-bottom: 1px solid #fff;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#section-team h4 {
+    font-weight: 400;
+}
+
+#section-team p {
+    font-weight: 300;
+}
+
+#section-team span {
+    font-weight: 400;
+}
+
+/*rodapé */
+
+footer p {
+    color: #190FA0;
+}
+
+.video {
+    width: 680px;
+    height: 480px;
+}
+
+.nav-mobile{
+    height: 69px;
+    display:none;
+}
+
+
+
+
+/* configuações tablet*/
+@media (max-width: 769px) {
+	
+	
+	
+	#bk1{
+		padding-top:0px;
+		margin-top:0px;
+	}
+	#bk1 .container{
+		margin-top:0px;
+	}
+	.-socials{
+	    display: none !important;
+	}
+    
+    .btn-md{
+    	display:none;
+    				}
+    				
+    .nav-mobile{
+        height: 69px;
+        display:flex;
+		margin-top:78px;
+    }
+
+    #section-main h1 {
+        font-size: 1.7rem;
+    }
+
+    #section-main p {
+        font-size: 1.5rem;
+    }
+
+    .titulo-banners {
+        margin-bottom: -38px;
+    }
+
+    .titulo-banners {
+        font-size: 1.5rem;
+        text-align: right;
+    }
+	
+	#conteudo-5 h2 {
+    margin-bottom: 0px;
+	}
+
+    .team-mobile {
+        margin-bottom: 30px;
+    }
+
+    .video {
+        width: 422px;
+        height: auto;
+    }
+
+    #services img {
+        max-width: 42px;
+    }
+
+    .service-bar {
+        display: none;
+    }
+
+    #services-2, #services-4 {
+        padding-top: 20px;
+    }
+    .card-title {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 468px) {
+    body{
+        margin-top:62px;
+    }
+
+    body h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        line-height: 1.4em;
+    }
+
+    .socials .p-2 {
+        padding: 0px;
+    }
+
+    .logo {
+        margin: 0px;
+        max-width:120px;       
+    }
+
+    .btn {
+        padding: 4px;
+    }
+
+
+    .titulo-banners {
+        font-size: 1.4rem;
+    }
+
+    #conteudo-5 h2 {
+        margin-bottom: -12px;
+    }
+
+
+    .titulo-banners {
+        font-size: 1.2rem;
+    }
+
+    .video {
+        width: 290px;
+		height: auto;
+    }
+
+    .nav-bar-mobile {
+        flex-wrap: nowrap;
+    }
+}
