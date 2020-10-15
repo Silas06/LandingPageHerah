@@ -199,7 +199,9 @@ footer p {
 /* configuações tablet*/
 @media (max-width: 769px) {
 	
-	
+	#img-1 {
+        margin-top: -23px;
+    }
 	
 	#bk1{
 		padding-top:0px;
