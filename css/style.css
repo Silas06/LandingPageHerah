@@ -5,7 +5,9 @@ body {
 .row {
     margin:0;
 }
-
+.container-fluid {
+    padding: 0;
+}
 
 
 
@@ -226,7 +228,10 @@ footer p {
 
     #section-main h1 {
         font-size: 1.7rem;
+        margin-top: -7px;
     }
+
+    
 
     #section-main p {
         font-size: 1.5rem;
@@ -284,19 +289,33 @@ footer p {
         line-height: 1.4em;
     }
 
+    #img-1 {
+        margin-top: 25px;
+    }
     .socials .p-2 {
         padding: 0px;
     }
 
     .logo {
         margin: 0px;
-        max-width:120px;       
+              
     }
 
     .btn {
         padding: 4px;
     }
 
+    #form-area {
+        padding: 0;
+    }
+
+    .video {
+        width: 288px;
+    }
+
+    #formulario {
+        margin-top: 255px;
+    }
 
     .titulo-banners {
         font-size: 1.4rem;
